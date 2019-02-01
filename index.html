@@ -204,7 +204,7 @@
 </style>
 
 <div class="root">
-	<div class="header">Minecraft UNICODE Font Texture Genterator Online</div>
+	<div class="header">我的世界字体制作器</div>
 	<div class="content">
 		<div class="preview">
 			<code class="preview-info">Loading...</code>
@@ -215,15 +215,15 @@
 				<form class="form">
 					<div class="fontname">
 						<div class="label">
-							Font Name:
+							字体名(默认华文黑):
 						</div>
 						<div class="input">
-							<input name="fontname" value="monospace" />
+							<input name="fontname" value="STHeiti" />
 						</div>
 					</div>
 					<div class="fontsize">
 						<div class="label">
-							Font Size:
+							字体大小:
 						</div>
 						<div class="input">
 							<input name="fontsize" type="number" min="6" step="1" value="14" />
@@ -231,7 +231,7 @@
 					</div>
 					<div class="gridsize">
 						<div class="label">
-							Grid Size:
+							网格大小（同字体大小会更好）:
 						</div>
 						<div class="input">
 							<input name="gridsize" type="number" min="8" step="1" value="16" />
@@ -239,7 +239,7 @@
 					</div>
 					<div class="yoffset">
 						<div class="label">
-							Y-axis Offset:
+							Ｙ轴偏移:
 						</div>
 						<div class="input">
 							<input name="yoffset" type="number" value="0" />
@@ -247,20 +247,20 @@
 					</div>
 					<div class="metamode">
 						<div class="label">
-							Meta format
+							游戏格式：
 						</div>
 						<div class="input">
 							<label>
-								<input name="metamode" type="radio" value="pc" checked/>PC
+								<input name="metamode" type="radio" value="pc" checked/>Java版
 							</label>
 							<label>
-								<input name="metamode" type="radio" value="pe" />PE
+								<input name="metamode" type="radio" value="pe" />基岩版
 							</label>
 						</div>
 					</div>
 					<div class="pack_format">
 						<div class="label">
-							pack_format:
+							打包格式:
 						</div>
 						<div class="input">
 							<input name="pack_format" type="number" value="1" min="1" />
@@ -268,7 +268,7 @@
 					</div>
 					<div class="description_format">
 						<div class="label">
-							description format:
+							注释格式:
 						</div>
 						<div class="input">
 							<input name="description_format" value="FONT %s %dx(%d)" />
@@ -277,8 +277,8 @@
 				</form>
 				<hr />
 				<div class="buttonbar">
-					<button id="gen_btn">Generate!</button>
-					<button id="reset_btn">Reset!</button>
+					<button id="gen_btn">生成</button>
+					<button id="reset_btn">重设</button>
 				</div>
 			</div>
 		</div>
